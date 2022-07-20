@@ -325,10 +325,6 @@ char * owb_string_from_rom_code(OneWireBus_ROMCode rom_code, char * buffer, size
  */
 owb_status owb_set_strong_pullup(const OneWireBus * bus, bool enable);
 
-
-#include "owb_gpio.h"
-#include "owb_rmt.h"
-
 #ifdef __cplusplus
 }
 #endif
