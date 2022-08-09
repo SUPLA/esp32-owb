@@ -40,7 +40,7 @@
 #include <stdint.h>
 #include <stdbool.h>
 #include <stddef.h>
-#include "driver/gpio.h"
+#include <driver/gpio.h>
 
 #ifdef __cplusplus
 extern "C" {
